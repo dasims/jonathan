@@ -9,9 +9,9 @@ int main() {
   cout<<"Please enter your exit time: ";
   cin>>exitTime;
 
-  period exitTime entryTime;
+  period, exitTime, entryTime;
   if (period > 1)
-    charge (period) + 1;
+    charge = (period) + 1;
   else
     charge = 2;
   cout<<"The charge for your parking is "<<charge;
